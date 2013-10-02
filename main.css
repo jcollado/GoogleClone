@@ -120,14 +120,15 @@ input[type="search"] {
     height: 26px;
     display: block;
     margin: 25px auto 0 auto;
-    border: 1px solid #ccc;
+    border-width: 0;
+    outline: 1px solid #ccc;
     text-indent: 10px;
     background: url('microphone.png') right top no-repeat;
     background-size: 30px 26px
 }
 
 input[type="search"]:focus {
-    border: 1px solid #5f85ff;
+    outline: 1px solid #5f85ff;
 }
 
 /* Buttons below search box */
